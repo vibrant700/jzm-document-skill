@@ -1,0 +1,7 @@
+interface:
+  display_name: "jzm文档skill"
+  short_description: "先选写作模式与输出格式，完整载入对应范文原件作示例，借鉴结构与自然表达"
+  default_prompt: "Use $jzm-document-skill to write a Chinese technical document from my materials. Ask for the mode, applicable function-documentation preference, and finally the output format. Before drafting, load the full original exemplars for that mode into the writing context and inspect their layout; do not substitute summaries."
+
+policy:
+  allow_implicit_invocation: false
